@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "941926480776",
+    "firebase_url": "https://complaint-management-sys-b535f-default-rtdb.firebaseio.com",
+    "project_id": "complaint-management-sys-b535f",
+    "storage_bucket": "complaint-management-sys-b535f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941926480776:android:40f31a663090980e51183d",
+        "android_client_info": {
+          "package_name": "com.complaint.management.system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941926480776-h1tvd8daplbhbqf23ueoiu2qfu63cvgi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXxZnYyKwxMwHOhbODa3i_rp2cFPwIaF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941926480776-h1tvd8daplbhbqf23ueoiu2qfu63cvgi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

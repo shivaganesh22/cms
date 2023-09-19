@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/user_item"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_margin="16dp"
+
+
+    >
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:layout_width="75dp"
+               android:layout_marginLeft="8dp"
+               android:layout_height="125dp"
+               android:src="@drawable/profile_round" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:orientation="vertical"
+               android:padding="10dp"
+
+               >
+
+               <TextView
+                   android:id="@+id/listUsername"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="8dp"
+                   android:text="Username"
+                   android:textColor="@color/black"
+                   android:textSize="20sp"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:id="@+id/listEmailuser"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="8dp"
+                   android:text="Email"
+                   android:textColor="@color/black"
+                   android:textSize="15sp" />
+
+               <TextView
+                   android:id="@+id/usrStatus"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginLeft="8dp"
+                   android:layout_marginTop="8dp"
+                   android:text="Status"
+                   android:textColor="@color/black"
+                   android:textSize="13sp" />
+
+
+           </LinearLayout>
+
+       </LinearLayout>
+   </RelativeLayout>
+
+
+
+
+
+</androidx.cardview.widget.CardView>

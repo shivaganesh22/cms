@@ -1,0 +1,90 @@
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginBottom="60dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Complaint Form"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/compaintName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:hint="Name"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <EditText
+            android:id="@+id/complaintEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/complaintNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:inputType="phone"
+            android:hint="Phone" />
+
+        <TextView
+            android:id="@+id/complaintDate"
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/complaintMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+        <Spinner
+            android:id="@+id/complaintSub"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+        <EditText
+            android:id="@+id/complaintDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minLines="5"
+            android:hint="Description:" />
+        <Button
+            android:id="@+id/complaintSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

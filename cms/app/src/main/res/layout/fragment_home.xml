@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".fragment_home">
+
+    <Button
+        android:id="@+id/sexual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Sexual harassment"
+        android:textColor="@color/colorRed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/depression"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Depression and anxiety"
+        android:textColor="@color/colorRed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexual" />
+
+    <Button
+        android:id="@+id/complaintInfra"
+        android:layout_marginTop="20dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:width="340dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Infrastructure"
+        android:textColor="@color/colorRed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/depression" />
+
+    <Button
+        android:id="@+id/child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Child marriages"
+        android:textColor="@color/colorRed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/complaintInfra" />
+
+    <Button
+        android:id="@+id/teaching"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+
+        android:backgroundTint="@color/teal_200"
+        android:text="Teaching and  syllabus"
+        android:textColor="@color/colorRed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/child" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Sports facilities"
+        android:textColor="@color/colorRed"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teaching" />
+</androidx.constraintlayout.widget.ConstraintLayout>

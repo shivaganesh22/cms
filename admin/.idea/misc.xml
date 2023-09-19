@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudio/Projects/admin/app/src/main/res/layout/complaint_dialog.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/drawable/back_to_home_button.xml" value="0.2265" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/drawable/reciver_shape.xml" value="0.2265" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/activity_add_admin.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/activity_add_faculty.xml" value="0.176" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/activity_chatting.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/activity_main.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/admin_item.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/admin_update.xml" value="0.1265625" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/complaint_dialog.xml" value="0.16822916666666668" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/email_layout.xml" value="0.18432971014492755" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/faculty_dialog.xml" value="0.1265625" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/faculty_item.xml" value="0.264" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_faculty.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_home.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_manage.xml" value="0.13958333333333334" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/fragment_users.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/item.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/notification.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/receiver_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/sender_layout.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/update_faculty.xml" value="0.1265625" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/user_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/user_item.xml" value="0.136" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/layout/verify_account.xml" value="0.1265625" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/menu/bottom_meni.xml" value="0.15364583333333334" />
+        <entry key="..\:/Users/rocks/AndroidStudioProjects/admin/app/src/main/res/menu/bottom_menu.xml" value="0.15364583333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

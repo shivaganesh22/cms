@@ -1,0 +1,18 @@
+<resources>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="headerTextSize">28sp</dimen>
+    <dimen name="_10sdp">10sp</dimen>
+    <dimen name="_80sdp">80sp</dimen>
+    <dimen name="_7sdp">7sp</dimen>
+    <dimen name="_2sdp">2sp</dimen>
+    <dimen name="_15sdp">15sp</dimen>
+    <dimen name="_45sdp">45sp</dimen>
+    <dimen name="_35sdp">35sp</dimen>
+    <dimen name="_5sdp">5sp</dimen>
+    <dimen name="_4sdp">4sp</dimen>
+    <dimen name="_25sdp">25sp</dimen>
+    <dimen name="_20sdp">20sp</dimen>
+    <dimen name="_1sdp">1sp</dimen>
+</resources>
